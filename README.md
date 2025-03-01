@@ -14,7 +14,7 @@ Awali perintah dengan `/`
 Perintah | Rincian | Status
 --- | --- | --- 
 `/jadwal` | `[/jadwal surabaya]`  Tampilkan jadwal sholat dengan menginput nama kota | ✅ 
-`/maghrib` | `[/maghrib jakarta]`  Tampilkan jadwal sholat Maghrib | ✅ 
+`/maghrib` | `[/maghrib jakarta]`  Tampilkan jadwal sholat Maghrib dengan menginput nama kota | ✅ 
 `/dzikir` | Tampilkan Dzikir secara acak | ✅ 
 `/renungan` | Tampilkan Renungan secara acak | ✅ 
 `/alhusna` | Tampilkan Asmaul Husna secara lengkap | ✅ 
@@ -32,6 +32,6 @@ Perintah | Rincian | Status
 
 ```bash
 # Pastikan Anda telah memasang paket python! 
-$ python -v
+$ python --version
 $ pip install python-telegram-bot requests aiohttp python-dotenv
 ```
