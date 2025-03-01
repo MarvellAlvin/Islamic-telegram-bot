@@ -5,7 +5,7 @@
 `Islamic Telegram Bot` adalah sebuah bot sederhana untuk membantu dalam beribadah agama Islam.  
 Bot ini adalah _fork_ dari [DeaAfrizal](https://github.com/deaafrizal/telegram-bot-python).
 
-`Islamic Telegram Bot` dibuat untuk belajar pemrograman python dan bot ini sifatnya open source.
+`Islamic Telegram Bot` dibuat untuk belajar pemrograman python dan bot ini sifatnya open source silahkan kembangkan lebih baik.
 
 ### Perintah
 
