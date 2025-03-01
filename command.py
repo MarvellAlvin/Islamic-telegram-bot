@@ -20,7 +20,7 @@ from api import (
     get_hadist,
 )
 # Impor list eksternal
-from data_lists import list_dzikir, list_renungan
+from data_list import list_dzikir, list_renungan
 
 @log_command
 async def start(update: Update, context: CallbackContext):
