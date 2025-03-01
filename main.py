@@ -1,10 +1,12 @@
 import os
 from dotenv import load_dotenv
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
+from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler
+from command import info, button_callback  # Import fungsi yang sudah dibuat
 
 # Import handler dan command dari file lain
-from commands import start, info, jadwal, maghrib, dzikir, renungan, husna, alhusna, listsurat, surah, ayat, hijriyah, doa, hadist
-from handlers import select_city, echo
+from command import start, info, jadwal, maghrib, dzikir, renungan, husna, alhusna, listsurat, surah, ayat, hijriyah, doa, hadist
+from handler import select_city, echo
 
 # Load token dari .env
 load_dotenv()
@@ -28,6 +30,7 @@ app.add_handler(CommandHandler('ayat', ayat))
 app.add_handler(CommandHandler('hijriyah', hijriyah))
 app.add_handler(CommandHandler('doa', doa))
 app.add_handler(CommandHandler('hadist', hadist))
+app.add_handler(CallbackQueryHandler(button_callback))  # Handler untuk tombol
 
 # Daftarkan message handler (untuk menangani input numerik dan echo)
 app.add_handler(MessageHandler(filters.Regex(r'^\d+$'), select_city))
