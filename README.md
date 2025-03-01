@@ -12,7 +12,7 @@ Bot ini adalah _fork_ dari [DeaAfrizal](https://github.com/deaafrizal/telegram-b
 Awali perintah dengan `/`
 
 Perintah | Rincian | Status
---- | --- | --- | --- | --- | --- | --- |
+--- | --- | --- 
 `/jadwal` | `[/jadwal surabaya]`  Tampilkan jadwal sholat dengan menginput nama kota | ✅ 
 `/maghrib` | `[/maghrib jakarta]`  Tampilkan jadwal sholat Maghrib | ✅ 
 `/dzikir` | Tampilkan Dzikir secara acak | ✅ 
